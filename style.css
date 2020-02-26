@@ -1,3 +1,4 @@
+
 .container{
     margin-bottom: 100px;
 }
@@ -15,6 +16,46 @@
     background-image: linear-gradient(to bottom, #ff5898 0%, #ff136f 100%);
     color: #fff;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     cursor: pointer;
+}
+
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+
+.cat1{
+    background-color: #ff136f
+    
+}
+.cat2{
+    background-color: aqua;
+}
+.cat3{
+    background-color: rgb(9, 172, 9);
+}
+.categories h1{
+    color: white;
+}
+.categories img{
+    width: 100px;
+}
+.card{
+    border: none;
+    box-shadow: 10px 10px 15px 15px rgb(202, 36, 36);
+    border-radius: 15px;
+}
+.card-footer{
+    background-color: rgb(7, 54, 21);
+   
+}
+#subscribe{
+    height: 300px;
+}
+#subscribe h6{
+    color: rgb(0, 255, 213);
+}
+footer{
+    text-align: center;
 }
